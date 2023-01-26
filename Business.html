@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+      ul{
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    li{
+      float: left;
+    }
+    li,a{
+      padding: 15px;
+      color: #1993e0;
+    }
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display:table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Business</title>
+</head>
+<body style="text-align: center">
+<ul>
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="Activities.html">Activities</a></li>
+  <li><a href="Contact%20us.html">Contact us</a></li>
+</ul>
+<br>
+
+<p>Welcome to business advert and job search in Kenya</p>
+<p>When Neil Patel writes about how to create a blog and mentions that his site earns over $1 million dollars a year, I hope people realize that even when he did this with a brand-new blog, he is still the well-respected, world-famous Neil Patel.
+  I'd like to see some stats on how well a brand-new site launch would do if his name weren't on it and couldn't spend four figures a month promoting it.
+Definitely read Neil's post and others to get information on how to monetize and promote your blog, but be clear on what will work for your business versus what only works if you are already famous or have very deep pockets to buy traffic.
+</p>
+<header>
+  <h1>Jobs available</h1>
+</header>
+<section>
+  <nav>
+    <ul>
+      <a href="#">Auditors and Accountants</a>
+      <a href="#">Computer System Analysts</a>
+      <a href="#">Industrial Engineers</a>
+    </ul></nav>
+  <article>
+   <h5>Auditors and Accountants</h5>
+    <p>Usually, at a minimum, Accountants and Auditors need a bachelor’s degree in accounting or a similar field to find work. Graduates with a professional certification or license, especially CPAs, will find the best job prospects, though opportunities are expected to be favorable for all. The career should experience employment growth that’s much faster
+      than average careers thanks to a jump in the number of businesses, an increased scrutiny of corporate finances and new financial regulations and laws.</p>
+    <h5>Computer System Analysts</h5>
+    <p>Computer systems analysts, sometimes called systems architects, study an organization's current computer systems and procedures and design improvements to them. In doing so,
+      these analysts help the organization operate more efficiently.8 Sept 2022</p>
+    <h5>Industrial Engineers</h5>
+    <p>Industrial engineers use specialized knowledge and skills in the mathematical,and social sciences, together with the principles and methods of engineering analysis and design, to specify, predict, and evaluate the results obtained from systems and processes.
+      [2] There are several industrial engineering principles followed in the manufacturing industry to ensure the effective flow of the systems, processes and operations
+      .[3] This includes Lean Manufacturing, Six Sigma, Information Systems, Process Capability and Define, Measure, Analyze, Improve and Control (DMAIC).</p>
+  </article>
+</section>
+
+</body>
+</html>
